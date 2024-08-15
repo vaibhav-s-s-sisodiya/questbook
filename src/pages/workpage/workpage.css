@@ -1,0 +1,32 @@
+:root {
+  margin: 0%;
+  padding: 0%;
+}
+#main {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  padding: 0%;
+  margin: 0%;
+  color: aliceblue;
+}
+#workspace {
+  width: 75%;
+  min-height: 100vh;
+  max-height: max-content;
+  margin-left: 20%;
+}
+button {
+  height: 40px;
+  width: 120px;
+}
+
+.quest {
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid #0cf;
+  border-radius: 7px;
+  background-color: #222;
+  box-shadow: 0 0 1.75px #0cf, 0 0 3.5px #0cf, 0 0 5.25px #0cf, 0 0 7px #0cf,
+    0 0 8.75px #0cf;
+}

@@ -1,0 +1,90 @@
+#taskbar {
+  background: radial-gradient(
+    circle at top,
+    black 0%,
+    rgb(40, 30, 99) 35%,
+    rgb(49, 19, 78) 80%,
+    rgb(92, 19, 106) 95%,
+    rgb(153, 7, 153) 100%
+  );
+
+  height: 80vh;
+  width: 20%;
+  position: fixed;
+  padding-top: 20vh;
+}
+#taskbar > ul li {
+  width: 100%;
+  margin-left: 0%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  background-color: antiquewhite;
+  margin-top: 1%;
+}
+
+#taskbar > ul li:last-child {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: right;
+  left: 20%;
+  width: 80%;
+  background-color: transparent;
+}
+
+li > button {
+  width: 100%;
+  height: 100%;
+  font-size: 1.15rem;
+  border: none;
+  width: 100% !important;
+  margin-left: 0% !important;
+}
+#taskbar > ul > li:hover {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 1px solid black;
+
+  width: 90%;
+  margin-left: 10%;
+  background-color: rgba(66, 143, 147, 0.304);
+}
+#taskbar > ul > li > button:hover {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: transparent;
+  color: aliceblue;
+}
+#taskbar > ul > li:hover:last-child {
+  border: none;
+  border-top-left-radius: none;
+  border-bottom-left-radius: none;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: right;
+  left: 20%;
+  width: 80%;
+  margin-left: 0%;
+  cursor: default;
+}
+.selected {
+  border: 1px solid black;
+  border-right: none !important;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 90% !important;
+  margin-left: 10% !important;
+  background-color: rgba(189, 108, 14, 0.292) !important;
+}
+.selected > * {
+  background-color: transparent !important;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 100% !important;
+  margin-left: 0% !important;
+  border-right: none !important;
+}

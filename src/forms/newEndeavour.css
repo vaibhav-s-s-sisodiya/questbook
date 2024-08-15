@@ -1,0 +1,91 @@
+div.new-endeavour {
+  margin-top: 5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10%;
+  background-color: #161916;
+  margin-left: 5%;
+  width: 90%;
+}
+.new-endeavour-form {
+  margin-top: 10%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0.2rem 0.2rem rgba(120, 30, 110, 0.71);
+  border: 2px solid rgba(120, 30, 110, 1);
+  padding: 30px;
+  align-self: center;
+}
+button.cancel {
+  height: 3rem;
+  padding: 5px;
+  margin: 1rem;
+  cursor: pointer;
+  background-color: rgba(300, 5, 5, 0.75);
+  width: 3rem;
+  border-radius: 2rem;
+  font-weight: 550;
+  font-size: 1.25rem;
+  box-shadow: 0.3rem 0.05rem rgba(300, 5, 5, 0.65);
+}
+button.cancel:active {
+  position: relative;
+  left: 0.2rem;
+  box-shadow: 0.1rem 0.01rem rgba(300, 5, 5, 0.65);
+}
+.new-endeavour-form > div > input[type="submit"] {
+  background-color: #4caf50;
+  height: 3rem;
+  padding: 5px;
+  margin: 1rem;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 1rem;
+  font-weight: 550;
+  font-size: 0.95rem;
+  box-shadow: 0.3rem 0.05rem #4caf50;
+}
+.new-endeavour-form > div > input[type="submit"]:focus {
+  position: relative;
+  left: 0.4rem;
+  box-shadow: 0.1rem 0.1rem rgba(300, 5, 5, 0.65);
+}
+.new-endeavour-title {
+  background-color: rgb(10, 10, 10);
+  color: white;
+  width: 50%;
+  height: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  border: solid rgba(120, 30, 110, 1) 2px;
+  box-shadow: 0.2rem 0.2rem rgba(120, 30, 110, 1);
+}
+.new-endeavour-description {
+  background-color: rgb(10, 10, 10);
+  color: white;
+  margin-top: 10px;
+  width: 80%;
+  max-height: auto;
+  text-align: center;
+  font-size: 0.85rem;
+  min-height: 7rem;
+  resize: none;
+  border: solid rgba(120, 30, 110, 1) 2px;
+  box-shadow: 0.2rem 0.2rem rgba(120, 30, 110, 1);
+}
+button.add-new-quest {
+  background-color: #3a527c;
+  height: 3rem;
+  padding: 5px;
+  margin: 1rem;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 1rem;
+  font-weight: 550;
+  font-size: 0.95rem;
+  box-shadow: 0.3rem 0.05rem #2c3e5e;
+}

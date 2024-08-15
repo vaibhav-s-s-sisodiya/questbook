@@ -1,7 +1,18 @@
+import { useState } from "react";
+import Homepage from "./pages/homepage";
+import Workpage from "./pages/workpage/workpage";
+
 function App() {
+  const [page, setPage] = useState("homepage");
+  function next(page) {
+    if (page === "homepage" || page === "workpage") {
+      setPage(page);
+    }
+  }
   return (
     <>
-      <h1>Hello World</h1>
+      {page === "homepage" && <Homepage nextIs={next} />}
+      {page === "workpage" && <Workpage />}
     </>
   );
 }

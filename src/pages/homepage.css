@@ -1,0 +1,40 @@
+div.homepage {
+  background-color: rgb(18, 28, 34);
+  min-height: 100vh;
+}
+h1.homepage {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 3.5rem;
+  color: rgba(0, 255, 255, 0.692);
+}
+p.homepage {
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgba(0, 255, 255, 0.692);
+  width: 75%;
+  margin-top: 50px;
+  margin-left: 12.5%;
+}
+button.homepage {
+  position: relative;
+  left: 45%;
+  width: 10%;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 550;
+  background-color: rgb(59, 231, 231);
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 5px 5px rgb(27, 87, 87);
+  cursor: pointer;
+}
+button.homepage:active {
+  left: 45.5%;
+  box-shadow: 1px 1px rgb(27, 87, 87);
+}
+div#start {
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 50px;
+}
