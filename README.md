@@ -3,6 +3,7 @@
 ## Introduction
 
 Questbook is a fresh take on traditional to-do lists, task managers, and project planners. It aims to be a fully functional and engaging tool, incorporating fun and innovative features. As the project evolves, new ideas and improvements will be added.
+[Try it out](mailto:https://vaibhav-s-s-sisodiya.github.io/questbook/)
 
 ## Aim
 
